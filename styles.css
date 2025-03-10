@@ -15,3 +15,12 @@ body {
 .light-green {
     background-color: var(--bg-second);
 }
+
+.card {
+    background-color: var(--bg-primary);
+    border: 1px solid var(--bg-second)
+}
+
+form {
+    color: white;
+}

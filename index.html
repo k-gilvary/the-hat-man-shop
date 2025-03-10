@@ -17,22 +17,165 @@
             </button>
             <div id="navbar" class="collapse navbar-collapse">
                 <div class="navbar-nav">
-                    <a href="#" class="nav-link fs-5 mx-2">Home</a>
-                    <a href="#" class="nav-link fs-5 mx-2">About</a>
-                    <a href="#" class="nav-link fs-5 mx-2">Contact</a>
+                    <a href="index.html" class="nav-link fs-5 mx-2">Home</a>
+                    <a href="index.html#about-container" class="nav-link fs-5 mx-2">About</a>
+                    <a href="contact.html" class="nav-link fs-5 mx-2">Contact</a>
                 </div>
             </div>
         </div>
      </nav>
 
+    <!-- HERO -->
     <div class="container-fluid d-flex justify-content-center" id="hero-container">
         <img class="img-fluid" src="https://placehold.co/600x400" alt="placeholder hero image">
     </div>
 
-    <main id="main-content" class="d-flex flex-column align-items-center">
+    <!-- MAIN CONTENT -->
+    <main id="main-content" class="d-flex flex-column align-items-center mb-5">
         <div class="container-fluid light-green p-3">
             <h1 class="text-center">BUY YOUR HAT FROM THE HAT MAN</h1>
             <p class="mt-5 text-center fw-bold fs-5">See what he offers:</p>
+        </div>
+
+        <!-- SHOP -->
+        <div id="shop-div" class="container-fluid mt-5">
+            <h3 class="text-light text-center mb-5">Hat Man's Hats</h3>
+
+            <div id="shop-cards-container" class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="card col-12 col-lg-3 mb-4">
+                        <img class="card-img-top" src="https://placehold.co/300x200" alt="placeholder product image">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">The Baseball (blue)</h5>
+                            <p class="card-text text-light">$310</p>
+                            <a href="#" class="btn light-green">Add to cart</a>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-lg-3 mb-4">
+                        <img class="card-img-top" src="https://placehold.co/300x200" alt="placeholder product image">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">The Baseball (red)</h5>
+                            <p class="card-text text-light">$310</p>
+                            <a href="#" class="btn light-green">Add to cart</a>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-lg-3 mb-4">
+                        <img class="card-img-top" src="https://placehold.co/300x200" alt="placeholder product image">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">The Baseball (white)</h5>
+                            <p class="card-text text-light">$310</p>
+                            <a href="#" class="btn light-green">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-between">
+                    <div class="card col-12 col-lg-3 mb-4">
+                        <img class="card-img-top" src="https://placehold.co/300x200" alt="placeholder product image">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">The Baseball (yellow)</h5>
+                            <p class="card-text text-light">$310</p>
+                            <a href="#" class="btn light-green">Add to cart</a>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-lg-3 mb-4">
+                        <img class="card-img-top" src="https://placehold.co/300x200" alt="placeholder product image">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">The Baseball (black)</h5>
+                            <p class="card-text text-light">$310</p>
+                            <a href="#" class="btn light-green">Add to cart</a>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-lg-3 mb-4">
+                        <img class="card-img-top" src="https://placehold.co/300x200" alt="placeholder product image">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">The Baseball (rainbow)</h5>
+                            <p class="card-text text-light">$450</p>
+                            <a href="#" class="btn light-green">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TESTIMONIALS CAROUSEL -->
+        <div id="testimonials-container" class="container-fluid light-green">
+            <h3 class="fw-bold text-center mt-3">Don't trust him? See what everyone's saying:</h3>
+            <div id="carousel" class="carousel carousel-dark slide p-4">
+                <div class="carousel-inner p-3">
+                    <div class="carousel-item active">
+                        <h3 class="text-center">"The Hat Man delivered my order personally the next day! I love his hats" - Jeremy W.</h3>
+                    </div>
+                    <div class="carousel-item">
+                        <h3 class="text-center">"I have a few hats and they're all amazing! I love hanging out with The Hat Man too!" - Eleine R.</h3>
+                    </div>
+                    <div class="carousel-item">
+                        <h3 class="text-center">"I love how I get to choose exactly when my hats get delivered! And he brings them himself!" - Ronald L.</h3>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- ABOUT -->
+        <div id="about-container" class="container-fluid col-lg-4">
+            <h3 class="text-center text-light my-5">Why The Hat Man?</h3>
+            <p id="about-text" class="text-light text-center fs-5">
+                Although from mysterious, unknown pasts, The Hat Man's sense of fasion is anything but. Everyone always talks about
+                their dreams of him, but what about his dreams? Believe it or not, The Hat Man is one of the biggest industry leaders
+                in headwear! Millions flock to his online storefront every season to get in on the trends. New designs roll out every time
+                the seasons change, and once one season is over, that design is gone forever. So act fast!
+                <br><br>
+                The air is getting warmer, the flowers are blooming, baseball is starting up again, do you know what that means? NEW SPRING
+                HAT COLLECTION by The Hat Man! "The Baseball" takes inspiration from traditional baseball caps, with a twist. So fire up those grills,
+                secure your favorite team's tickets for this season, and live in spring style with "The Baseball", personally delivered by The Hat Man
+                himself<span class="fs-6">*</span>.
+            </p>
+            <p id="disclaimer" class="text-light text-center mt-5">*The Hat Man is not responsible for any trauma caused by his appearance</p>
+        </div>
+
+        <!-- PRODUCT SCHEDULE -->
+        <div id="table-container-section" class="container-fluid light-green p-5 d-flex flex-column align-items-center">
+            <h3 class="text-center mb-5">See what's rolling out this year</h3>
+            <div id="table-container" class="col-lg-6">
+                <table class="table table-dark table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">When</th>
+                            <th scope="col">Season</th>
+                            <th scope="col">Product Line</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">Vernal Equinox</td>
+                            <td>Spring</td>
+                            <td>The Baseball</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Summer Solstice</td>
+                            <td>Summer</td>
+                            <td>The Cooler</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Autumnal Equinox</td>
+                            <td>Autumn</td>
+                            <td>The Fall</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Winter Solstice</td>
+                            <td>Winter</td>
+                            <td>The Gift</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </main>
 
