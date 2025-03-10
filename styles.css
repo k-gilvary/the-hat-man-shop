@@ -1,0 +1,17 @@
+:root {
+    --bg-second: #ABE188;
+    --bg-primary: #2E332D;
+    --link-color: #FF7B9C;
+}
+
+body {
+    background-color: var(--bg-primary);
+}
+
+#nav {
+    background-color: var(--bg-second);
+}
+
+.light-green {
+    background-color: var(--bg-second);
+}
