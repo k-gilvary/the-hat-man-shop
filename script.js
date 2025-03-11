@@ -67,6 +67,7 @@ if(contactForm) {
     })
 }
 
+// CHECK IF ADD TO CART BUTTON CLICKED
 html.addEventListener('click', (e) => {
     if(e.target.textContent == 'Add to cart') {
         handleAddToCart(e);
