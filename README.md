@@ -44,4 +44,13 @@ the Toast notification pops up once the user successfully submits the contact fo
 I wrote 4 functions in my JavaScript file for this assignment:
 
 - displayErr(radioSet) is called if the user attempts to submit the form without choosing a radio input. It adds a red error message
-under the radio set, if there isn't one there already, and removes it once the form successfully submits.
+under the radio set, if there isn't one there already, and removes it once the form successfully submits. I will use this in the future
+for custom form validation.
+- handleAddToCart() is called when the user clicks any of the "Add to cart" buttons in the product cards. It puts the item name
+and price into an object and pushes it to the cart array. I can use this in the future when I'm able to implement a database,
+and have an actual cart for the user.
+- updateCartTotal() is called whenever handleAddToCart() is called. It simply loops through the cart, aggregates the prices of all the items,
+and displays it on the home page above the product cards. I can use something like this in the future when I need an element
+dynamically updated.
+- validateRadio() is called whenever the contact form is submitted. It checks if any of the radio inputs were selected. It returns true if it finds
+one, and false if it doesn't. I can use this for form validation in the future, as it works well with displayErr()
